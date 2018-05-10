@@ -176,14 +176,14 @@ scene.add( cylinder3 );
 // Wall's texture
 const textureLoader = new THREE.TextureLoader()
 
-const woodTexture = textureLoader.load('bois.jpg')
+const woodTexture = textureLoader.load('textures/bois.jpg')
 woodTexture.wrapS = THREE.RepeatWrapping
 woodTexture.wrapT = THREE.RepeatWrapping
 woodTexture.repeat.set(4, 4)
 
 const textureRoch = new THREE.TextureLoader()
 
-const woodRoch = textureRoch.load('roch.jpg')
+const woodRoch = textureRoch.load('textures/roch.jpg')
 woodRoch.wrapS = THREE.RepeatWrapping
 woodRoch.wrapT = THREE.RepeatWrapping
 woodRoch.repeat.set(4, 4)
@@ -191,7 +191,7 @@ woodRoch.repeat.set(4, 4)
 // Carpet's texture
 const textureCarpet = new THREE.TextureLoader()
 
-const woodCarpet = textureCarpet.load('carpet.jpg')
+const woodCarpet = textureCarpet.load('textures/carpet.jpg')
 woodCarpet.wrapS = THREE.RepeatWrapping
 woodCarpet.wrapT = THREE.RepeatWrapping
 woodCarpet.repeat.set(4, 4)
